@@ -1,0 +1,39 @@
+> Task :app:checkKotlinGradlePluginConfigurationErrors
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:checkDebugAarMetadata UP-TO-DATE
+> Task :app:generateDebugResValues UP-TO-DATE
+> Task :app:mapDebugSourceSetPaths UP-TO-DATE
+> Task :app:generateDebugResources UP-TO-DATE
+> Task :app:mergeDebugResources UP-TO-DATE
+> Task :app:packageDebugResources UP-TO-DATE
+> Task :app:parseDebugLocalResources UP-TO-DATE
+> Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :app:extractDeepLinksDebug UP-TO-DATE
+> Task :app:processDebugMainManifest UP-TO-DATE
+> Task :app:processDebugManifest UP-TO-DATE
+> Task :app:processDebugManifestForPackage UP-TO-DATE
+> Task :app:processDebugResources UP-TO-DATE
+
+> Task :app:kspDebugKotlin FAILED
+e: [ksp] /Users/saiteku/workspace/restaurant-orchestration/resto-master/app/src/main/java/com/example/restomaster/data/local/entity/TableEntity.kt:15: Ambiguous getter for Field(element=token, name=token, type=String, affinity=TEXT, collate=null, columnName=token, defaultValue=null, parent=null, indexed=false, nonNull=true). All of the following match: getToken, getToken. You can @Ignore the ones that you don't want to match.
+e: [ksp] /Users/saiteku/workspace/restaurant-orchestration/resto-master/app/src/main/java/com/example/restomaster/data/local/entity/TableEntity.kt:15: Ambiguous getter for Field(element=token, name=token, type=String, affinity=null, collate=null, columnName=token, defaultValue=null, parent=null, indexed=false, nonNull=true). All of the following match: getToken, getToken. You can @Ignore the ones that you don't want to match.
+e: [ksp] /Users/saiteku/workspace/restaurant-orchestration/resto-master/app/src/main/java/com/example/restomaster/data/local/entity/TableEntity.kt:15: Ambiguous getter for Field(element=token, name=token, type=String, affinity=null, collate=null, columnName=token, defaultValue=null, parent=null, indexed=false, nonNull=true). All of the following match: getToken, getToken. You can @Ignore the ones that you don't want to match.
+w: [ksp] /Users/saiteku/workspace/restaurant-orchestration/resto-master/app/src/main/java/com/example/restomaster/data/local/entity/MasterMenuItemAllergen.kt:26: allergenCode column references a foreign key but it is not part of an index. This may trigger full table scans whenever parent table is modified so you are highly advised to create an index that covers this column.
+e: Error occurred in KSP, check log for detail
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:kspDebugKotlin'.
+> A failure occurred while executing org.jetbrains.kotlin.compilerRunner.GradleCompilerRunnerWithWorkers$GradleKotlinCompilerWorkAction
+   > Compilation error. See log for more details
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 3s
+15 actionable tasks: 2 executed, 13 up-to-date
