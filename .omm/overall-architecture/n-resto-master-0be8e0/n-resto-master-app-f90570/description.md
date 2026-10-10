@@ -1,0 +1,27 @@
+実在パス: `resto-master/app`。6687ファイル。
+
+- `resto-master/app/build.gradle.kts`
+- `resto-master/app/build/generated/hilt/component_sources/debug/com/example/restomaster/DaggerRestoMasterApp_HiltComponents_SingletonC.java`
+- `resto-master/app/build/generated/hilt/component_sources/debug/com/example/restomaster/Hilt_RestoMasterApp.java`
+- `resto-master/app/build/generated/hilt/component_sources/debug/com/example/restomaster/RestoMasterApp_HiltComponents.java`
+- `resto-master/app/build/generated/hilt/component_trees/debug/com/example/restomaster/RestoMasterApp_ComponentTreeDeps.java`
+- `resto-master/app/build/generated/hilt/component_trees/debug/dagger/hilt/internal/processedrootsentinel/codegen/_com_example_restomaster_RestoMasterApp.java`
+- `resto-master/app/build/generated/ksp/debug/java/com/example/restomaster/Hilt_MainActivity.java`
+- `resto-master/app/build/generated/ksp/debug/java/com/example/restomaster/MainActivity_GeneratedInjector.java`
+- `resto-master/app/build/generated/ksp/debug/java/com/example/restomaster/RestoMasterApp_GeneratedInjector.java`
+- `resto-master/app/build/generated/ksp/debug/java/com/example/restomaster/data/local/AppDatabase_Impl.java`
+- `resto-master/app/build/generated/ksp/debug/java/com/example/restomaster/data/local/dao/AllergenFeedbackDao_Impl.java`
+- `resto-master/app/build/generated/ksp/debug/java/com/example/restomaster/data/local/dao/BillDao_Impl.java`
+- `resto-master/app/build/generated/ksp/debug/java/com/example/restomaster/data/local/dao/BillItemDao_Impl.java`
+- `resto-master/app/build/generated/ksp/debug/java/com/example/restomaster/data/local/dao/CallRequestDao_Impl.java`
+- `resto-master/app/build/generated/ksp/debug/java/com/example/restomaster/data/local/dao/ClosingDao_Impl.java`
+- `resto-master/app/build/generated/ksp/debug/java/com/example/restomaster/data/local/dao/MasterAllergenDao_Impl.java`
+- `resto-master/app/build/generated/ksp/debug/java/com/example/restomaster/data/local/dao/MasterMenuItemAllergenDao_Impl.java`
+- `resto-master/app/build/generated/ksp/debug/java/com/example/restomaster/data/local/dao/MenuDao_Impl.java`
+- `resto-master/app/build/generated/ksp/debug/java/com/example/restomaster/data/local/dao/MenuTranslationDao_Impl.java`
+- `resto-master/app/build/generated/ksp/debug/java/com/example/restomaster/data/local/dao/OrderDao_Impl.java`
+- `resto-master/app/build/generated/ksp/debug/java/com/example/restomaster/data/local/dao/PaymentDao_Impl.java`
+- `resto-master/app/build/generated/ksp/debug/java/com/example/restomaster/data/local/dao/PaymentItemDao_Impl.java`
+- `resto-master/app/build/generated/ksp/debug/java/com/example/restomaster/data/local/dao/ReceiptDao_Impl.java`
+- `resto-master/app/build/generated/ksp/debug/java/com/example/restomaster/data/local/dao/ReservationDao_Impl.java`
+- `resto-master/app/build/generated/ksp/debug/java/com/example/restomaster/data/local/dao/StoreDao_Impl.java`

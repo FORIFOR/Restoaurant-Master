@@ -1,0 +1,8 @@
+graph TD
+    source["ソース\nresto-master/backend/main.py"]
+    n-fastapi-41a137["fastapi\n外部・別名・未解決"]
+    source -->|"Python AST: import／export"| n-fastapi-41a137
+    n-fastapi-middleware-cors-ab8086["fastapi.middleware.cors\n外部・別名・未解決"]
+    source -->|"Python AST: import／export"| n-fastapi-middleware-cors-ab8086
+    n-gemini-ocr-d61eb8["gemini_ocr\nresto-master/backend/gemini_ocr.py"]
+    source -->|"Python AST: import／export"| n-gemini-ocr-d61eb8

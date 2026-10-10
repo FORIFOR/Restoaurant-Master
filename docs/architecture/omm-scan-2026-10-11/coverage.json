@@ -1,0 +1,50 @@
+{
+  "repo": "FORIFOR/Restoaurant-Master",
+  "branch": "main",
+  "tree_sha": "b186c9136cb5eec41e0fccf342b67d9792282f55",
+  "tree_files": 6748,
+  "read_files": [
+    {
+      "path": "README.md",
+      "sha": "4c44f6418b21b384b7537936a312ef90c052b83b"
+    },
+    {
+      "path": "resto-master/app/build.gradle.kts",
+      "sha": "d0345ecdd290598a0d456f4d4a1d7aef263f99b0"
+    },
+    {
+      "path": "resto-master/build.gradle.kts",
+      "sha": "51d1a765d64f2c95efecdb42c1bb770b3ca4a6b8"
+    },
+    {
+      "path": "resto-master/backend/main.py",
+      "sha": "21c2ae2afed921ad4974200c97166aa1b86f51e1"
+    },
+    {
+      "path": "restomaster-payments/app/main.py",
+      "sha": "3be0cc879412882374ce8fcd3424bbc61c5d5c88"
+    },
+    {
+      "path": "resto-master/backend/stripe_server/main.py",
+      "sha": "9022127d15127a8f19474041d8c523a2354ef62e"
+    },
+    {
+      "path": "restomaster-payments/app/paypay_client.py",
+      "sha": "19dd6b8299c7409c45d7e0623718660563f6eb37"
+    },
+    {
+      "path": "resto-master/backend/gemini_ocr.py",
+      "sha": "f1815a0995113e02d5721a26372f3a13494ea2f9"
+    },
+    {
+      "path": "restomaster-payments/app/routes_paypay.py",
+      "sha": "890e788b7948fb3bf1a477afbc1e4d9b4c1cb8fd"
+    },
+    {
+      "path": "restomaster-payments/app/routes_webhook.py",
+      "sha": "a85d64d9b9211f437bfc3e6d099b492167cd4d40"
+    }
+  ],
+  "not_read_count": 6738,
+  "scope": "initial entry-point and direct-import analysis; not exhaustive semantic scan"
+}

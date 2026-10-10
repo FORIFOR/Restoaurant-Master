@@ -1,0 +1,5 @@
+# Restoaurant-Master
+
+Android飲食店アプリ、OCR、Stripe、PayPayの複数バックエンドを含む構成。
+
+この図はリポジトリ内の構成です。コードを実行した結果やサービス間の通信保証ではありません。
